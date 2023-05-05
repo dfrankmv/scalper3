@@ -1,3 +1,3 @@
 <template>
-  Hola mundo
+  <el-button>hola mundos</el-button>
 </template>
