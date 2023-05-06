@@ -1,0 +1,11 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB',
+  'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
+  /* --el-text-color-regular: #111;
+  --el-border-color: #aaa;
+  --color: #444; */
+}
+
+i.el-icon {
+  font-style: normal;
+}
