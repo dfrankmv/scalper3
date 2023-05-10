@@ -9,3 +9,15 @@ body {
 i.el-icon {
   font-style: normal;
 }
+
+.float-right {
+  margin-left: auto;
+}
+
+.mb {
+  margin-bottom: 10px
+}
+
+.icon-right-space {
+  margin-right: 10px;
+}

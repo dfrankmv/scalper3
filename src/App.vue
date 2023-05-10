@@ -1,24 +1,20 @@
 <template>
-    <h4>Scalper</h4>
-    <main-form :model="data.cmd" />
-    <pre><code>{{ JSON.stringify(data) }}</code></pre>
+    <c-header :data="data" />
+    <c-main-form :data="data" />
+    <c-main-buttons :data="data" />
+    <c-results :data="data" />
 </template>
 
 <script>
-import MainForm from './components/MainForm.vue';
-
+import {reactive} from 'vue'
 export default {
-    components: {
-        MainForm,
-    },
     data() { return {
-        data: {
-            cmd: {
-                amount: null,
-                profit: null,
-            },
+        data: reactive({
+            amount: null,
+            profit: null,
+            direction: null,
             orders: [],
-        }
-    }}
+        })
+    }},
 }
 </script>
